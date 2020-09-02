@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage = 'https://lingohub.com'
   spec.author = { 'LingoHub Team' => 'support@lingohub.com' }
   spec.source = { :http => "https://github.com/lingohub/lh-ios-sdk/releases/download/1.0.0/LingoHub.framework.zip" }
-  spec.license = { :type => "BSD-3-Clause" }
+  spec.license = { :type => "BSD-3-Clause", :file => "Frameworks/License.md" }
 
   spec.ios.deployment_target = '9.0'
   spec.ios.vendored_frameworks = "Frameworks/iOS/LingoHub.framework"
