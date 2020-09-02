@@ -21,7 +21,7 @@ let package = Package(
         .binaryTarget(
             name: "LingoHub",
             url: "https://github.com/lingohub/lh-ios-sdk/releases/download/1.0.0/LingoHub.xcframework.zip",
-            checksum: "558d8a697d139abcf2221be5964a1837cd0ff8baaec08d991337afdff0c8ff51"
+            checksum: "148b9f871195cac2c40628486d8fca648cb83d566fafca6e119b3e7d449d7a25"
         )
     ]
 )
