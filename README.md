@@ -52,12 +52,12 @@ To integrate LingoHub into your Xcode project using [Accio](https://github.com/J
 To integrate LingoHub into your Xcode project using [Carthage](https://github.com/Carthage/Carthage), specify it in your `Cartfile`:
 
 ```ogdl
-binary "https://raw.githubusercontent.com/lingohub/lingohub-ios-sdk/master/LingoHub.json"
+binary "https://raw.githubusercontent.com/lingohub/lh-ios-sdk/master/LingoHub.json"
 ```
 
 ### Manually
 
-If you prefer not to integrate LingoHub manually instead of using a Dependency Manager, [download the latest LingoHub.xcframwork](https://github.com/lingohub/ios-sdk/releases/latest/download/LingoHub.xcframework.zip) and add it to your project. 
+If you prefer not to integrate LingoHub manually instead of using a Dependency Manager, [download the latest LingoHub.xcframwork](https://github.com/lingohub/lh-ios-sdk/releases/latest/download/LingoHub.xcframework.zip) and add it to your project. 
 
 ## Usage
 
