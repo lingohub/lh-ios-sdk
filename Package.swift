@@ -20,8 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "LingoHub",
-            url: "https://github.com/lingohub/ios-sdk/releases/download/1.0.0/LingoHub.xcframework.zip",
-            checksum: "ffb51fe8fa015c10be1148993887f0dfd7d37f0091d7aa14bc6aaa62037dcc8b"
+            url: "https://github.com/lingohub/lh-ios-sdk/releases/download/1.0.0/LingoHub.xcframework.zip",
+            checksum: "64586d9e2067a2c38db2fbef92978e8263b6c941b10d9317e3b7a0f87c32f09a"
         )
     ]
 )
