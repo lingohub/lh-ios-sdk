@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage = 'https://lingohub.com'
   spec.author = { 'LingoHub Team' => 'support@lingohub.com' }
   spec.source = { :http => "https://github.com/lingohub/lh-ios-sdk/releases/download/1.0.0/LingoHub.xcframework.zip" }
-  spec.license = { :type => "BSD-3-Clause", :file => 'Frameworks/LICENSE.md' }
+  spec.license = { :type => "BSD-3-Clause" }
 
   spec.cocoapods_version = '>= 1.9.1'
 
@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target = '9.0'
   spec.osx.deployment_target = '10.11'
 
-  spec.vendored_frameworks = "Frameworks/LingoHub.xcframework"
+  spec.vendored_frameworks = "LingoHub.xcframework"
 end
