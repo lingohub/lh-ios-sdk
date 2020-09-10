@@ -27,6 +27,26 @@ To integrate LingoHub into your Xcode project using [CocoaPods](https://cocoapod
 pod 'LingoHub'
 ```
 
+### Swift Package Manager
+
+To integrate LingoHub into your Xcode project using [Swift Package Manager](https://swift.org/package-manager/), specify it in the `dependencies` of your `Package.swift`:
+
+```swift
+// swift-tools-version:5.3
+import PackageDescription
+...
+dependencies: [
+    .package(url: "https://github.com/lingohub/lh-ios-sdk.git", .upToNextMajor(from: "1.0.0"))
+]
+...
+```
+
+:warning: Our SDK has dependencies on binary frameworks, so you have to use a version higher than 5.3 of your Swift Tools 
+
+### Accio
+
+To integrate LingoHub into your Xcode project using [Accio](https://github.com/JamitLabs/Accio), use the same configuration as for Swift Package Manager. Once your`Package.swift`file is configured, run`accio update`.
+
 ### Carthage
 
 To integrate LingoHub into your Xcode project using [Carthage](https://github.com/Carthage/Carthage), specify it in your `Cartfile`:
