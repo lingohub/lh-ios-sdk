@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
   spec.name = 'LingoHub'
-  spec.version = '1.0.2'
+  spec.version = '1.0.3'
   spec.summary = 'LingoHub iOS SDK for OTA localization updates'
   spec.homepage = 'https://lingohub.com'
   spec.author = { 'LingoHub Team' => 'support@lingohub.com' }
-  spec.source = { :http => "https://github.com/lingohub/lh-ios-sdk/releases/download/1.0.2/LingoHub.xcframework.zip" }
+  spec.source = { :http => "https://github.com/lingohub/lh-ios-sdk/releases/download/1.0.3/LingoHub.xcframework.zip" }
   spec.license = { :type => "BSD-3-Clause" }
 
   spec.ios.deployment_target = '9.0'
